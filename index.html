@@ -2,16 +2,37 @@
 <html>
     <head>
         <title> mi portfolio personal </title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+/>
     </head>
     <body>
+        
         <header> 
-            <h1>Patricia Jazmín Dávalos Vera</h1>
-            <h2>Soy estudiante de ing. agronómica</h2>
+            
+            <nav>
+                <ul>
+                  <a class="menu-item" href="#acerca-de-mi">Acerca de mí</a>
+                  <a class="menu-item" href="#habilidades">Habilidades</a>
+                  <a class="menu-item" href="#experiencia">Experiencia</a>
+                  <a class="menu-item" href="#proyectos">Proyectos</a>
+                  <a class="menu-item" href="#contacto">Contacto</a>
+                </ul>
+              </nav>
+
+            <img src="https://www.ideafit.com/wp-content/uploads/2023/08/Environment-Impact-of-Diets-1070x602.jpg"
+            height="500" width="900" alt="logo"/> 
+            
+            <h1 style="background-color: rgb(83, 82, 81);">Patricia Jazmín Dávalos Vera</h1>
+            <h2>Soy estudiante de Ing. Agronómica</h2>
         </header>
         <main>
-            <section> 
+            <section id="acerca-de-mi"> 
                 <h2>Acerca de mí:</h2>
-                <p>
+                <p style="background-color: rgb(201, 195, 119);">
                     Decidí aprender un poco mas sobre el diseño y desarrollo de la programación 
                     para así poder fusionar de alguna forma con la agricultura de precisión. 
                     Como desarrollador web junior, fusiono mi pasión por el campo, la naturaleza 
@@ -22,7 +43,7 @@
                     de mí en el campo laboral. 
                 </p>
             </section>  
-            <section>
+            <section id="habilidades">
                 <h2>Habilidades</h2>
                 <ul>
                     <li>html</li>
@@ -32,29 +53,44 @@
                     <li>css</li>
                 </ul>
             </section>
-            <section>
+            <section id="experiencia">
                 <h2>Experiencia</h2> 
                 <ul>
                     <li>El Rincón Servicios(2019-2020)</li>
-                    <p>Atención al cliente.</p> 
+                    <ul>
+                        <li>Atención al cliente</li>
+                    </ul> 
                     <li>MC Training (2021)</li>
-                    <p>Atención al cliente y administración.</p> 
+                    <ul>
+                        <li>Atención al cliente y administración.</li>
+                    </ul> 
                 </ul>
             </section>
-            <section>
-                <h2>Proyecto</h2> 
+            <section id="proyectos">
+                <h2>Proyectos</h2> 
                 <ul>
                     <li>Inversión sobre drones con cámaras multiespectrales</li>
                     <li>Investigación sobre la agricultura de precisión</li>
                 </ul>
             </section>
-            <section>
+            <section id="contacto">
                 <h2>Contacto</h2>
                 <ul>
                     <li> <b>teléfono:</b>0985-478289</li>
                     <li> <b>correo:</b> patricia.davalos@usc.edu.py</li>
-                    <li> <b>github::</b>
-                        <a>https://github.com/jazmin1717/portfolio-web</a> 
+                    <li> 
+                        <a style="background-color: rgb(255, 255, 252);" href="https://github.com/jazmin1717/portfolio-web" target="_blank"><b>github</b></a> 
+                        
+                        <ul id="sociales">
+                            <li>
+                              <a href="https://www.facebook.com/patriciajazmin.davalosvera" class="fa fa-facebook" target="_blank"><b></b></a> 
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.instagram.com/jaz__davalos/" class="fa fa-instagram" target="_blank"><b></b></a> 
+                            </li>
+                            <!-- Agrega más redes sociales si lo deseas -->
+                          </ul>
                     </li>
                 </ul>
             </section>
