@@ -1,0 +1,113 @@
+p {
+    color: rgb(7, 6, 7);
+    background-color: rgb(173, 117, 11);
+    font-weight: bold;
+}
+a {
+    color: rgb(15, 15, 15);
+    background-color: rgb(224, 233, 180);
+    border-radius: 30px;
+    margin-right: 20px;
+}
+section{
+    color: rgb(114, 70, 4);
+    border: 1px rgb(40, 59, 4) solid;
+    margin: 20px;
+    padding: 20px;
+}
+body{
+    font-family: Cambria Math, sans-serif;
+    margin: 10;
+    color: black (114, 70, 4);
+    padding-top: 70px;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #50524f;
+    box-shadow: 1 1 5px rgba(50, 10, 20, 1);
+  }
+    .menu-item {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: inline-block;
+  }
+  .menu-item:hover {
+    background-color: #dd8511;
+    transition: all 0.3s ease-in-out;
+  }
+  header {
+    background-color: #333;
+    color: #f7d475;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 20px;
+    border: 2px solid #b9aaa0;
+    margin-bottom: 20px;
+  }
+  #habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #c7c7c6;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+  #experiencia ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 5px;
+  }
+  #proyectos ul {
+    list-style: none;
+    padding: 10;
+    margin: 0;
+    
+  }
+  
+  #proyectos ul li a {
+    text-decoration: none;
+    color: #3f3e3e;
+  }
+  
+  #proyectos ul li a:hover {
+    text-decoration: underline;
+  }
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
